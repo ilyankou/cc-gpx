@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints
+urls
+interim
+gpx
+final/*gpkg
+final/*gpkg-shm
+final/*gpkg-wal
