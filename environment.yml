@@ -1,0 +1,25 @@
+name: cc-gpx
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.5
+  - pandas=2.2.2
+  - geopandas=0.14.1
+  - jupyterlab
+  - pip
+  - pip:
+    - git+https://github.com/tkrajina/srtm.py
+    - git+https://github.com/tmikus/pycld2.git
+    - beautifulsoup4==4.11.2
+    - warcio==1.7.4
+    - pandarallel==1.6.5
+    - gpxpy==1.6.2
+    - shapely==2.0.2
+    - tqdm==4.66.2
+    - geopy==2.4.1
+    - phonenumbers==8.13.34
+    - argostranslate==1.9.3
+    - tldextract==5.1.2
+    - seaborn==0.13.2
+    - contextily==1.6.0
+    - pyarrow==14.0.1
