@@ -56,12 +56,10 @@ Run the notebooks in order to build the final GeoPackage dataset with the follow
 
 If you find this dataset or workflow useful for your research, please cite us!
 ```
-@misc{ilyankou2024ccgpx,
+@article{ilyankou2024ccgpx,
       title={CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl}, 
-      author={Ilya Ilyankou and James Haworth and Stefano Cavazzi},
+      author={Ilyankou, Ilya and Haworth, James and Cavazzi, Stefano},
       year={2024},
-      eprint={2405.11039},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      journal={arXiv preprint arXiv:2405.11039},
 }
 ```
