@@ -2,10 +2,23 @@
 
 📜 This is the official code repository for the pre-print titled 'CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl' and published on arXiv: https://arxiv.org/abs/2405.11039
 
-**Authors:** [Ilya Ilyankou](https://ilyankou.com), Dr James Haworth and Dr Stefano Cavazzi
+**Authors:** [Ilya Ilyankou](https://ilyankou.com), [Meihui Wang](https://github.com/Ceciliawangwang), Dr James Haworth and Dr Stefano Cavazzi
 
 ## Abstract
-The Common Crawl (CC) corpus is the largest open web crawl dataset containing 9.5+ petabytes of data captured since 2008. The dataset is instrumental in training large language models, and as such it has been studied for (un)desirable content, and distilled for smaller, domain-specific datasets. However, to our knowledge, no research has been dedicated to using CC as a source of annotated geospatial data. In this paper, we introduce an efficient pipeline to extract annotated user-generated tracks from GPX files found in CC, and the resulting multimodal dataset with 1,416 pairings of human-written descriptions and MultiLineString vector data. The dataset can be used to study people's outdoor activity patterns, the way people talk about their outdoor experiences, and for developing trajectory generation or track annotation models.
+The Common Crawl (CC) corpus is the largest open web crawl
+dataset containing 9.5+ petabytes of data captured since 2008. The
+dataset is instrumental in training large language models, and as
+such it has been studied for (un)desirable content, and distilled for
+smaller, domain-specific datasets. However, to our knowledge, no
+research has been dedicated to using CC as a source of annotated
+geospatial data. In this paper, we introduce an efficient pipeline
+to extract annotated user-generated tracks from GPX files found
+in CC, and the resulting multimodal dataset with 1,416 pairings
+of human-written descriptions and MultiLineString vector data
+from the 6 most recent CC releases. The dataset can be used to
+study people's outdoor activity patterns, the way people talk about
+their outdoor experiences, and for developing trajectory generation
+or track annotation models.
 
 ![Example routes with descriptions from the paper](./other/figures.png)
 
@@ -58,7 +71,7 @@ If you find this dataset or workflow useful for your research, please cite us!
 ```
 @article{ilyankou2024ccgpx,
       title={CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl}, 
-      author={Ilyankou, Ilya and Haworth, James and Cavazzi, Stefano},
+      author={Ilyankou, Ilya and Wang, Meihui and Haworth, James and Cavazzi, Stefano},
       year={2024},
       journal={arXiv preprint arXiv:2405.11039},
 }
