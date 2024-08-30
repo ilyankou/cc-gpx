@@ -1,8 +1,8 @@
 # CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl 
 
-📜 This is the official code repository for the pre-print titled 'CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl' and published on arXiv: https://arxiv.org/abs/2405.11039
+📄 This is the official code repository for the pre-print titled 'CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl' and published on arXiv: https://arxiv.org/abs/2405.11039
 
-**Authors:** [Ilya Ilyankou](https://ilyankou.com), [Meihui Wang](https://github.com/Ceciliawangwang), Dr James Haworth and Dr Stefano Cavazzi
+✍️ Authors: [Ilya Ilyankou](https://ilyankou.com), [Meihui Wang](https://github.com/Ceciliawangwang), Stefano Cavazzi, and James Haworth
 
 ## Abstract
 The Common Crawl (CC) corpus is the largest open web crawl
@@ -71,7 +71,7 @@ If you find this dataset or workflow useful for your research, please cite us!
 ```
 @article{ilyankou2024ccgpx,
       title={CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl}, 
-      author={Ilyankou, Ilya and Wang, Meihui and Haworth, James and Cavazzi, Stefano},
+      author={Ilyankou, Ilya and Wang, Meihui and Cavazzi, Stefano and Haworth, James},
       year={2024},
       journal={arXiv preprint arXiv:2405.11039},
 }
