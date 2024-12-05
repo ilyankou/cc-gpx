@@ -1,6 +1,12 @@
-# CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl 
+# CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl
 
-📄 This is the official code repository for the pre-print titled 'CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl' and published on arXiv: https://arxiv.org/abs/2405.11039
+[![DOI](https://zenodo.org/badge/802180311.svg)](https://doi.org/10.5281/zenodo.14243609)
+[![ACM Digital Library](https://img.shields.io/badge/ACM%20Digital%20Library-10.1145/3678717.3691215-green)](https://dl.acm.org/doi/10.1145/3678717.3691215)
+
+📄 This is the official code repository for the short paper titled 'CC-GPX: Extracting High-Quality
+Annotated Geospatial Data from Common Crawl', presented at SIGSPATIAL'24 in Atlanta, GA.
+The pre-print is available [on arXiv](https://arxiv.org/abs/2405.11039), and the final
+paper in the [ACM Digital Library](https://dl.acm.org/doi/10.1145/3678717.3691215).
 
 ✍️ Authors: [Ilya Ilyankou](https://ilyankou.com), [Meihui Wang](https://github.com/Ceciliawangwang), Stefano Cavazzi, and James Haworth
 
@@ -69,10 +75,20 @@ Run the notebooks in order to build the final GeoPackage dataset with the follow
 
 If you find this dataset or workflow useful for your research, please cite us!
 ```
-@article{ilyankou2024ccgpx,
-      title={CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl}, 
-      author={Ilyankou, Ilya and Wang, Meihui and Cavazzi, Stefano and Haworth, James},
-      year={2024},
-      journal={arXiv preprint arXiv:2405.11039},
+@inproceedings{ilyankou2024ccgpx,
+      author = {Ilyankou, Ilya and Wang, Meihui and Cavazzi, Stefano and Haworth, James},
+      title = {CC-GPX: Extracting High-Quality Annotated Geospatial Data from Common Crawl},
+      year = {2024},
+      isbn = {9798400711077},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3678717.3691215},
+      doi = {10.1145/3678717.3691215},
+      booktitle = {Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems},
+      pages = {693–696},
+      numpages = {4},
+      keywords = {Common Crawl, GIS, GPS, GPX, hiking, user-generated routes},
+      location = {Atlanta, GA, USA},
+      series = {SIGSPATIAL '24}
 }
 ```
